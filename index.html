@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio - @Satyampandey_jii</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bdfeb3191.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Image/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#achievement">Achievement</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Computer Science Student</p>
+            <h1>Hi, I'm <span>S</span>atyam <span> K</span>umar <br><span>P</span>andey from Bhabua-Bihar</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------------------------------------------ABOUT ME------------------------------------------------------ -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/01.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am <b>Satyam Kumar Pandey</b>, a passionate and dedicated student with a strong foundation in his work.<br> I do my work with full hard work and honesty, and I'm always excited to learn something new.<br> Currently, I am in my 3rd year of B Tech from <b>Computer Science & Engineering</b>.<br> I am exploring my knowladge in <b>Machine Learning(ML)</b> & <b>Artificial Intelligence(AI)</b> in  Data Science.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"><b>Skills</b></p>
+                        <p class="tab-links" onclick="opentab('experience')"><b>Experience</b></p>
+                        <p class="tab-links" onclick="opentab('education')"><b>Education</b></p>
+                    </div>
+
+                                <!-- ......SKILL...... -->
+
+                    <div class="tab-contents active tab" id="skills">
+                        <ul>
+                            <li><span>Languages</span><br>Proficient in <b>Python</b>, C/C++, HTML, CSS, Java</li>
+                            <li><span>Python Libraries </span><br>Good knowladge on NumPy, Pandas, Matplotlib, Scikit-Learn, SeaBorn, OpenCV</li>                            
+                            <li><span>Databases </span><br>Relational Database(MySQL)</li>
+                            <li><span>Data Analytics Tools </span><br>Python, Excel, Tableau, SQL</li>    
+                            <li><span>Specialization </span><br>Deep Learning, Image processing, Natural Language processing(NLP)</li>  
+                            <li><span>Web Dev Tools</span><br>Git, Github</li>                  
+                            <li><span>Relevent Coursework </span><br>Data Structure & Algoritham, Operating System, Object Oriented Programing, Database Management System, Software Engineering</li>
+                            
+                        </ul>
+                    </div>
+                             
+                                <!-- ......EXPERIENCE....... -->
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Web Development intern</span><br>Work At Codsoft<br> At Bharat Intern <br> At Code Casa</li>
+                            <li><span>StackUp</span><br>I have been working on stack up for 2 years, In which we have done web development, data analysis and some other work.<br>It is completely like a freelancer. </li>
+                            
+                        </ul>
+                    </div>
+
+                               <!-- .......EDUCTION...... -->
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span><b>BTech</b><br></span><br>Computer Science & Engineering <br><b><u><i><a href="https://www.cit.urschard.in/">Calcutta Institute of Technology</a></i></u> </b><br>2022-2026 (Full time)</li>
+                            <li><span><b>12th Class(X11)</b><br></span><br>CBSE <br><b><u><i><a href="https://www.tvnschools.com/">71294-Tusli Vidya Niketan Nagwa Lanka Varanasi UP</a> </i></u></b><br>60.00% <br>2020-2022 (Full time)</li>
+                            <li><span><b>10th Class(X)</b><br></span><br>CBSE <br><b><u><i><a href="https://www.rpsbhabua.org.in/">65733-Ram Prasad Singh Acad Manpur Kaimur Bhabua BR</a> </i></u></b><br>80.02% <br>2020 (Full time)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------------------------------------------My Achievement------------------------------------------------ -->
+
+<div id="achievement">
+    <div class="container">
+        <h1 class="sub-title">My Achievement</h1>
+        <div class="achievement-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam ex expedita nulla iste! Laudantium magnam modi enim maiores necessitatibus iure quaerat vel voluptates, cumque sapiente accusantium, nemo dignissimos ipsum?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam ex expedita nulla iste! Laudantium magnam modi enim maiores necessitatibus iure quaerat vel voluptates, cumque sapiente accusantium, nemo dignissimos ipsum?</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae veniam ex expedita nulla iste! Laudantium magnam modi enim maiores necessitatibus iure quaerat vel voluptates, cumque sapiente accusantium, nemo dignissimos ipsum?</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------------------------My Project----------------------------------------------------------- -->
+
+<div id="portfolio">
+
+
+
+            <!-- data analytic project -->
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <h2>Data Analytics Project</h2>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/Inventory_Management.png" >
+                <div class="layer">
+                    <h3>Inventory Management System</h3>
+                    <p>Its help to managing the company's Inventories, hepls to billing after sale.</p>
+                    <a href="https://github.com/satyampandeyjii/-Inventory-Management-with-JSON/blob/main/Inventory%20Management%20with%20JSON%20overview/Inventory%20Management%20System%20With%20JSON.ipynb"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Listen any things every things, creat your favorites playlist.Download it from Play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/work-3.png" >
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>It help us to buy anythings from home with the help of this Shopping App.Download it from Play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+
+
+                <!--  AI & ML project -->
+    <div class="container">
+        <h2>AI & ML project</h2>
+
+        <div class="work-list">
+            <div class="work">
+                <img src="Image/work-1.png" >
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app help us to connects the other tilented people in the World.Download it from Play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/work-2.png" >
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Listen any things every things, creat your favorites playlist.Download it from Play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Image/work-3.png" >
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>It help us to buy anythings from home with the help of this Shopping App.Download it from Play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        
+        </div>
+        
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------------------------------------------ Contact--------------------------------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> <a href="https://mail.google.com/mail/u/1/#inbox">satyamkumarpandey53@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i> 8873621346</p>
+                <div class="social-icons">
+                    <a href="https://github.com/satyampandeyjii"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://x.com/SatyamPandey_ji"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/satyam-kumar-pandey-867a3526b/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Image/CV Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>SatyamPandey_Jii <i class="fa-solid fa-face-smile"></i></p>
+    </div>
+</div>
+
+
+
+
+<!-- ____________________________________________Java script work___________________________________________ -->
+
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+ 
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script> 
+
+ <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+ </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxmMAoaMohbnL4C2Z4W1lOfsnsp3U05Wn4F99VwZuM_b5-tj5svi4i_WNvbgVAX3Z6K/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML = "Massage sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        } )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
